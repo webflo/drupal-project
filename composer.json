@@ -50,10 +50,7 @@
         "pre-update-cmd": [
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
-        "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
+        "post-drupal-scaffold-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
